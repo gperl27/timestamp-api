@@ -12,15 +12,17 @@ By Greg Perlman
 
 Add a valid date or unix timestamp to the end of the query
 
-<code>https://immense-brushlands-3354.herokuapp.com/January 10, 2015</code>
+<code>https://guarded-dusk-38636.herokuapp.com/May 5, 2015</code>
 <br>
-<code>https://immense-brushlands-3354.herokuapp.com/123416142134</code>
+<code>https://guarded-dusk-38636.herokuapp.com/1430784000</code>
 
 ## Output:
 
 <code>
-  { "unix": 1450137600, "natural": "December 15, 2015" }
+  { "date":"May 05, 2015", "unix":"1430784000" }
 </code>
 
 
 ###Live Site:
+
+https://guarded-dusk-38636.herokuapp.com/
